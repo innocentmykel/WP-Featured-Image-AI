@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WP Featured Image AI - Professional Blog Banners</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#f0f9ff',
+                100: '#e0f2fe',
+                200: '#bae6fd',
+                300: '#7dd3fc',
+                400: '#38bdf8',
+                500: '#0ea5e9',
+                600: '#0284c7',
+                700: '#0369a1',
+                800: '#075985',
+                900: '#0c4a6e',
+                950: '#082f49',
+              },
+              gray: {
+                850: '#1f2937',
+                900: '#111827',
+                950: '#0B0F19',
+              }
+            },
+            animation: {
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            }
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react-hot-toast": "https://aistudiocdn.com/react-hot-toast@^2.6.0",
+    "react-easy-crop": "https://esm.sh/react-easy-crop@5.0.5?external=react,react-dom",
+    "tslib": "https://esm.sh/tslib@2.6.2"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-950 text-white antialiased">
+    <div id="root"></div>
+  </body>
+</html>
